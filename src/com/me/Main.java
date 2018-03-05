@@ -13,6 +13,15 @@ public class Main {
         //type in 6 for a specific list capacity
         ArrayList<Integer> weeklyTemperatures = new ArrayList<Integer>(6);
 
+        //step 2
+        //You can insert an object at a specific position in the list by listing the
+        // position in the add method:
+        weeklyTemperatures.add(78); //0 position
+        weeklyTemperatures.add(67);
+        weeklyTemperatures.add(89);
+        weeklyTemperatures.add(94);
+        weeklyTemperatures.add(88);
+        weeklyTemperatures.add(79); //5
 
 
 
