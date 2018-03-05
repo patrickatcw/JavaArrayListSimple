@@ -2,6 +2,7 @@ package com.me;
 
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class Main {
 
@@ -23,10 +24,14 @@ public class Main {
         weeklyTemperatures.add(88);
         weeklyTemperatures.add(79); //5
 
+        //step 3 print a specific position
+        System.out.println( weeklyTemperatures.get(2));
+        //result; 89
 
-
+        //step 4 printing whole list
+        System.out.println(Arrays.toString(new ArrayList[]{weeklyTemperatures}));
+        //result; [[78, 67, 89, 94, 88, 79]]
     }
-
 
 
 }
